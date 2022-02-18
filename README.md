@@ -1,5 +1,5 @@
 # github_workshop
 
-Welcome to research project
+Welcome to my research project
 
-  [my data] 
+  [my data](data.txt) | [my_code](analyze.py)
