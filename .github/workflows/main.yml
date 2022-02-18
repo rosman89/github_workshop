@@ -1,0 +1,15 @@
+#actions as receipe that outline steps to add repository 
+name: thanks-push 
+#descript name of what action will be
+  on: push 
+  #when our action will be triggered
+  jobs:
+  #message when someone pushes 
+    my-job:
+    #do this when pushes - create virtual enviro to run virtual commands 
+      runs-on: ubuntu-latest
+      #create temp linux container 
+      steps:
+        - name: my-step
+          run: echo "Thanks for Collaborating"
+          #message when pushes 
